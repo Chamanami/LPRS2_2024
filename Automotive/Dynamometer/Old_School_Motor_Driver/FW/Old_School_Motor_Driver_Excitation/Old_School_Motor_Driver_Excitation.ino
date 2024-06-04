@@ -9,7 +9,7 @@
 
 
 
-void setup() {
+/*void setup() {
 
 	Serial.begin(115200);
 	Serial.println("setup() running...");
@@ -31,4 +31,4 @@ void loop() {
 	DELAY();
 	digitalWrite(LED_BUILTIN, 1);
 	digitalWrite(N_SIG, 1);
-}
+}*/

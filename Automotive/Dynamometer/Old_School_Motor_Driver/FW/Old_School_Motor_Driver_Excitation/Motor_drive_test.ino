@@ -19,7 +19,7 @@
 int currentStep = 0;
 
 // Vreme izmedju promene stanja (u milisekundama)
-unsigned long commutationInterval = 40; // Prilagoditi po zelji (Teorijski. Manji komutacioni interval = brza smena = veca brzina obrtanja)
+unsigned long commutationInterval = 10; // Prilagoditi po zelji (Teorijski. Manji komutacioni interval = brza smena = veca brzina obrtanja)
 unsigned long lastCommutationTime = 0; // Meri maksimalno 4.294.967 sekundi = 1192.5 sati, na kraju se resetuje na 0
 
 // Trenutno vreme koliko dugo radi motor (milisekunde)
